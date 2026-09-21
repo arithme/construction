@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from './site-link';
 import type {company as Company} from '@/config/company';
 type Brand=typeof Company;
 export function Header({brand}:{brand:Brand}){return <><div className="demo-strip">FICTIONAL DEMONSTRATION · SAMPLE PROJECTS · NO LIVE ENQUIRIES</div><header className="header wrap"><Link href="/" className="wordmark"><img className="brand-mark" src={brand.logo} alt="" width="46" height="52"/><span>{brand.shortName}<small>{brand.descriptor}</small></span></Link><nav aria-label="Main navigation">{['About','Services','Projects','Blog','Contact'].map(s=><Link key={s} href={'/'+s.toLowerCase()}>{s==='Blog'?'Insights':s}</Link>)}</nav><Link href="/request-a-quote" className="button compact">Get a free quote ↗</Link><details className="mobile-menu"><summary>Menu</summary><nav aria-label="Mobile navigation">{['about','services','projects','testimonials','blog','contact'].map(p=><Link key={p} href={'/'+p}>{p}</Link>)}</nav></details></header></>}
