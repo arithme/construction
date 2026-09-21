@@ -1,0 +1,956 @@
+{
+  "services": [
+    {
+      "slug": "residential",
+      "title": "Residential construction",
+      "category": "construction",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "Homes planned around everyday life, from individual houses to multi-family briefs.",
+      "longDescription": "A home starts with how you live. Clarify your room requirements, future needs and site constraints before design coordination. A defined specification helps the construction team turn these priorities into a buildable plan.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=residential"
+      },
+      "relatedProjects": [
+        "courtyard-residence"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Residential construction services",
+        "description": "Homes planned around everyday life, from individual houses to multi-family briefs.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "commercial",
+      "title": "Commercial construction",
+      "category": "construction",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "Workplaces, shops and business spaces with practical layouts.",
+      "longDescription": "Commercial projects need a clear understanding of users, circulation, operations and fit-out requirements. Coordinate these early with the design team and document the responsibilities for each work package.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=commercial"
+      },
+      "relatedProjects": [
+        "steel-city-workspace"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Commercial construction services",
+        "description": "Workplaces, shops and business spaces with practical layouts.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "industrial",
+      "title": "Industrial construction",
+      "category": "civil",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "Construction briefs shaped around access, workflow and operations.",
+      "longDescription": "Industrial work begins with operational requirements, access, equipment and specialist coordination. Establish loading, services and safety requirements with qualified designers before finalising construction scope.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=industrial"
+      },
+      "relatedProjects": [
+        "workshop-pavilion"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Industrial construction services",
+        "description": "Construction briefs shaped around access, workflow and operations.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "renovation",
+      "title": "Renovation",
+      "category": "specialized",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "A considered next chapter for the spaces you already have.",
+      "longDescription": "Renovation starts with understanding the existing building. Record what should stay, what needs investigation and how occupied areas will be managed before preparing a phased scope.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=renovation"
+      },
+      "relatedProjects": [
+        "learning-court"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Renovation construction services",
+        "description": "A considered next chapter for the spaces you already have.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "interior",
+      "title": "Interior",
+      "category": "specialized",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "Coordinated interiors, finishes and everyday functionality.",
+      "longDescription": "Interior work benefits from a joined-up finish schedule, lighting coordination and careful sequencing. Agree samples and procurement responsibilities before installation begins.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=interior"
+      },
+      "relatedProjects": [
+        "garden-home-renewal"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Interior construction services",
+        "description": "Coordinated interiors, finishes and everyday functionality.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "turnkey",
+      "title": "Turnkey",
+      "category": "specialized",
+      "image": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "shortDescription": "One coordinated scope from planning through handover.",
+      "longDescription": "A turnkey brief should set out design responsibilities, construction inclusions, finish standards and handover requirements. Clear exclusions and change procedures make the coordination model easier to assess.",
+      "benefits": [
+        "A written scope and specification",
+        "Coordinated design and site discussions",
+        "Milestone-based progress reviews"
+      ],
+      "process": [
+        {
+          "title": "Listen & assess",
+          "description": "Discuss priorities, available drawings and site conditions."
+        },
+        {
+          "title": "Define the scope",
+          "description": "Agree responsibilities, inclusions and specification."
+        },
+        {
+          "title": "Coordinate the work",
+          "description": "Plan sequencing, procurement and progress reviews."
+        },
+        {
+          "title": "Review & hand over",
+          "description": "Inspect the agreed work and record handover documentation."
+        }
+      ],
+      "cta": {
+        "label": "Discuss this service",
+        "href": "/request-a-quote?service=turnkey"
+      },
+      "relatedProjects": [
+        "community-walkway"
+      ],
+      "faqs": [
+        {
+          "question": "How is a construction estimate prepared?",
+          "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+          "category": "Cost"
+        },
+        {
+          "question": "What happens during a first site visit?",
+          "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+          "category": "Site Visit"
+        },
+        {
+          "question": "How long will my project take?",
+          "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+          "category": "Timeline"
+        }
+      ],
+      "seo": {
+        "title": "Turnkey construction services",
+        "description": "One coordinated scope from planning through handover.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    }
+  ],
+  "projects": [
+    {
+      "slug": "courtyard-residence",
+      "name": "The Courtyard Residence",
+      "category": "residential",
+      "location": {
+        "city": "Bokaro",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 2400,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "A home organised around light and shared family spaces.",
+        "long": "A home organised around light and shared family spaces. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "The Courtyard Residence",
+        "description": "A home organised around light and shared family spaces.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "steel-city-workspace",
+      "name": "Steel City Workspace",
+      "category": "commercial",
+      "location": {
+        "city": "Chas",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 3200,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "A concept for adaptable workplaces and clear circulation.",
+        "long": "A concept for adaptable workplaces and clear circulation. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "Steel City Workspace",
+        "description": "A concept for adaptable workplaces and clear circulation.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "workshop-pavilion",
+      "name": "Workshop Pavilion",
+      "category": "industrial",
+      "location": {
+        "city": "Bokaro",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 4000,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "An illustrative study of practical access and working zones.",
+        "long": "An illustrative study of practical access and working zones. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "Workshop Pavilion",
+        "description": "An illustrative study of practical access and working zones.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "learning-court",
+      "name": "Learning Court",
+      "category": "institutional",
+      "location": {
+        "city": "Chas",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 4800,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "A concept for shaded circulation and shared learning spaces.",
+        "long": "A concept for shaded circulation and shared learning spaces. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "Learning Court",
+        "description": "A concept for shaded circulation and shared learning spaces.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "garden-home-renewal",
+      "name": "Garden Home Renewal",
+      "category": "renovation",
+      "location": {
+        "city": "Bokaro",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 5600,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "A sample brief for improving daylight in an existing home.",
+        "long": "A sample brief for improving daylight in an existing home. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "Garden Home Renewal",
+        "description": "A sample brief for improving daylight in an existing home.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    },
+    {
+      "slug": "community-walkway",
+      "name": "Community Walkway",
+      "category": "infrastructure",
+      "location": {
+        "city": "Chas",
+        "state": "Jharkhand"
+      },
+      "area": {
+        "value": 6400,
+        "unit": "sqft"
+      },
+      "completionYear": 2026,
+      "status": "upcoming",
+      "description": {
+        "short": "A sample public-realm brief centred on connected routes.",
+        "long": "A sample public-realm brief centred on connected routes. This fictional concept demonstrates how a project case study can explain design intent, scope and decisions. The area and materials are illustrative; no construction, client commission or completed result is claimed."
+      },
+      "gallery": [
+        {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      ],
+      "scope": [
+        "Site and brief review",
+        "Concept coordination",
+        "Illustrative material palette"
+      ],
+      "challenges": [
+        "Balance the intended use with site conditions and access."
+      ],
+      "solutions": [
+        "Coordinate the layout and specification before preparing a construction programme."
+      ],
+      "materials": [
+        "Illustrative concrete surfaces",
+        "Sandstone accents",
+        "Timber screening"
+      ],
+      "features": [
+        "Natural light",
+        "Defined circulation",
+        "Shaded transitions"
+      ],
+      "results": [
+        "Concept brief only — no measured or completed outcome claimed."
+      ],
+      "seo": {
+        "title": "Community Walkway",
+        "description": "A sample public-realm brief centred on connected routes.",
+        "ogImage": {
+          "src": "/images/courtyard.webp",
+          "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+          "type": "image",
+          "isSample": true
+        }
+      },
+      "isSample": true
+    }
+  ],
+  "blog": [
+    {
+      "slug": "before-your-first-site-visit",
+      "title": "Before your first site visit: a useful checklist",
+      "excerpt": "The drawings, questions and priorities that make an initial conversation more productive.",
+      "content": "Start with your priorities\nWrite down how you want the property to work: rooms, circulation, privacy, storage and future needs. Separate essentials from preferences so the conversation has a clear starting point.\n\nBring what you have\nGather existing drawings, site photographs and available survey information. Make clear which documents are current and which still need verification. Do not assume a sketch is a construction drawing.\n\nDiscuss access and use\nExplain whether the property will remain occupied, how materials could reach the site, and any practical restrictions. These details help identify questions for the next stage.\n\nLeave with a written next step\nRecord who will provide missing information, what assessments are needed and what the next proposal will cover.",
+      "category": "Home Construction",
+      "featuredImage": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "author": "Demo editorial team",
+      "publishedAt": "2026-09-21",
+      "readingTime": 3,
+      "categories": [
+        "Home Construction"
+      ],
+      "tags": [
+        "Home Construction"
+      ],
+      "seo": {
+        "title": "Before your first site visit: a useful checklist",
+        "description": "The drawings, questions and priorities that make an initial conversation more productive."
+      },
+      "isSample": true
+    },
+    {
+      "slug": "reading-a-construction-scope",
+      "title": "What a clear construction scope should explain",
+      "excerpt": "Look beyond a headline figure to understand inclusions, exclusions and responsibilities.",
+      "content": "Define the work\nA useful scope identifies the spaces, work packages and intended deliverables. It should be possible to connect each item to a drawing, specification or agreed description.\n\nName the exclusions\nAsk which items are outside the proposal: specialist design, utility connections, loose furniture or other work. The exact exclusions will depend on your project.\n\nRecord material choices\nDocument finish grades and approved samples. Where a selection is pending, agree how it will be priced and approved.\n\nAgree a change process\nA change should be described and approved before it affects the work. Record any impact on time and price in the project documentation.",
+      "category": "Construction Tips",
+      "featuredImage": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "author": "Demo editorial team",
+      "publishedAt": "2026-09-21",
+      "readingTime": 3,
+      "categories": [
+        "Construction Tips"
+      ],
+      "tags": [
+        "Construction Tips"
+      ],
+      "seo": {
+        "title": "What a clear construction scope should explain",
+        "description": "Look beyond a headline figure to understand inclusions, exclusions and responsibilities."
+      },
+      "isSample": true
+    },
+    {
+      "slug": "materials-and-finish-samples",
+      "title": "Making material and finish decisions with confidence",
+      "excerpt": "A practical way to compare appearance, maintenance and installation requirements.",
+      "content": "Look at the real sample\nA photograph may not show texture, variation or reflected light accurately. View a sample in the intended space where practical.\n\nAsk about maintenance\nDiscuss cleaning requirements, exposure and the intended use of each finish with the supplier and designer. Different locations in the same building may need different specifications.\n\nCoordinate details\nMaterial thickness, edge treatments and junctions affect the final appearance. Resolve these details before ordering.\n\nRecord the selection\nKeep the product reference, approved sample and quantity assumptions with the project specification. Confirm availability before finalising the programme.",
+      "category": "Materials",
+      "featuredImage": {
+        "src": "/images/courtyard.webp",
+        "alt": "Illustrative courtyard architecture, not a photograph of a completed client project",
+        "type": "image",
+        "isSample": true
+      },
+      "author": "Demo editorial team",
+      "publishedAt": "2026-09-21",
+      "readingTime": 3,
+      "categories": [
+        "Materials"
+      ],
+      "tags": [
+        "Materials"
+      ],
+      "seo": {
+        "title": "Making material and finish decisions with confidence",
+        "description": "A practical way to compare appearance, maintenance and installation requirements."
+      },
+      "isSample": true
+    }
+  ],
+  "testimonials": [
+    {
+      "clientName": "Sample client 1",
+      "location": "Illustrative feedback",
+      "rating": 0,
+      "quote": "A clear scope would help us compare proposals with confidence.",
+      "isSample": true
+    },
+    {
+      "clientName": "Sample client 2",
+      "location": "Illustrative feedback",
+      "rating": 0,
+      "quote": "Regular progress updates would make decisions easier to follow.",
+      "isSample": true
+    },
+    {
+      "clientName": "Sample client 3",
+      "location": "Illustrative feedback",
+      "rating": 0,
+      "quote": "Seeing material samples before approval would be valuable.",
+      "isSample": true
+    },
+    {
+      "clientName": "Sample client 4",
+      "location": "Illustrative feedback",
+      "rating": 0,
+      "quote": "A documented handover would give us a useful record of the work.",
+      "isSample": true
+    },
+    {
+      "clientName": "Sample client 5",
+      "location": "Illustrative feedback",
+      "rating": 0,
+      "quote": "A coordinated point of contact would simplify our project discussions.",
+      "isSample": true
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is a construction estimate prepared?",
+      "answer": "An estimate starts with the site, usable area, drawings and a written specification. Ask for an itemised scope, exclusions and a process for approving changes before agreeing to a price.",
+      "category": "Cost"
+    },
+    {
+      "question": "What happens during a first site visit?",
+      "answer": "A first visit is a chance to discuss access, existing conditions, intended use and available drawings. Bring your questions and site documents. Any surveys or professional assessments should be agreed separately.",
+      "category": "Site Visit"
+    },
+    {
+      "question": "How long will my project take?",
+      "answer": "A programme depends on project size, design readiness, site access, procurement and weather. Request a project-specific schedule with milestones and a clear process for communicating delays.",
+      "category": "Timeline"
+    },
+    {
+      "question": "Can I choose my materials and finishes?",
+      "answer": "Record preferred materials and finish grades in the specification. Compare samples and agree any substitutions, price changes and lead-time impacts in writing.",
+      "category": "Materials"
+    },
+    {
+      "question": "Are design and approvals included?",
+      "answer": "The written proposal should state which design, coordination and approval-support services are included. Confirm requirements with the relevant authority and qualified professionals for your particular site.",
+      "category": "Approvals"
+    },
+    {
+      "question": "How are payments and changes handled?",
+      "answer": "Agree documented milestones, payment stages and change-order approvals before work begins. The final contract, including warranties and exclusions, should reflect the actual project scope.",
+      "category": "Payment"
+    }
+  ]
+}

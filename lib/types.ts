@@ -1,0 +1,22 @@
+export type MediaItem={src:string;srcMobile?:string;alt:string;title?:string;caption?:string;type:'image'|'video'|'embed';isSample?:boolean};
+export type SeoFields={title:string;description:string;canonical?:string;ogImage?:MediaItem;twitterCard?:'summary'|'summary_large_image'};
+export type Address={street:string;city:string;state:string;country:string;postalCode:string};
+export type BusinessHours={days:string;opens:string;closes:string};
+export type Stat={label:string;value:string;isSample?:boolean};
+export type Location={slug:string;name:string;description:string};
+export type AnalyticsConfig={enabled:boolean};
+export type SocialLinks=Record<string,string>;
+export type CompanyConfig={companyName:string;shortName:string;descriptor:string;tagline:string;phone:string;whatsapp:string;email:string;address:Address;businessHours:BusinessHours[];googleMapsUrl:string;mapsEmbedUrl:string;googleBusinessUrl:string;placeId?:string;logo:string;primaryColor:string;secondaryColor:string;socialLinks:SocialLinks;serviceAreas:string[];stats:Stat[];credentials:{label:string;value:string;verified:boolean}[];seo:SeoFields;isSample:boolean;locale:string;theme:string;hero:{title:string;subtitle:string;image:string};features:{calculators:boolean;careers:boolean;blog:boolean;siteVisit:boolean;popups:boolean;darkMode:boolean}};
+export type FAQ={question:string;answer:string;category:string};
+export type CTA={label:string;href:string};
+export type ProcessStep={title:string;description:string};
+export type Service={slug:string;title:string;category:'construction'|'civil'|'specialized';image:MediaItem;shortDescription:string;longDescription:string;benefits:string[];process:ProcessStep[];cta:CTA;relatedProjects:string[];faqs:FAQ[];seo:SeoFields;isSample:boolean};
+export type Project={slug:string;name:string;category:'residential'|'commercial'|'industrial'|'institutional'|'renovation'|'infrastructure';location:{city:string;state:string;mapUrl?:string};area:{value:number;unit:'sqft'|'sqm'};completionYear:number;status:'completed'|'ongoing'|'upcoming';description:{short:string;long:string};gallery:MediaItem[];scope:string[];challenges:string[];solutions:string[];materials:string[];features:string[];results:string[];seo:SeoFields;isSample:boolean};
+export type Testimonial={clientName:string;company?:string;location?:string;rating:number;quote:string;projectName?:string;photo?:MediaItem;isSample:boolean};
+export type TeamMember={name:string;designation:string;experience:string;bio:string;photo:MediaItem;role:'founder'|'director'|'engineer'|'architect'|'pm'|'supervisor';isSample?:boolean};
+export type BlogPost={slug:string;title:string;excerpt:string;content:string;featuredImage:MediaItem;author:string;publishedAt:string;readingTime:number;categories:string[];tags:string[];seo:SeoFields;isSample:boolean};
+export type ProjectFilters={category?:string;query?:string};
+export type FormType='quote'|'site-visit'|'callback'|'contact'|'career';
+export type ConversionEvent={formType:FormType;source:string;page:string;timestamp:string};
+export interface ContentProvider{getCompany():Promise<CompanyConfig>;getServices():Promise<Service[]>;getProjects(filters?:ProjectFilters):Promise<Project[]>;getTestimonials():Promise<Testimonial[]>;getTeam():Promise<TeamMember[]>;getBlogPosts():Promise<BlogPost[]>;getFAQs():Promise<FAQ[]>;}
+

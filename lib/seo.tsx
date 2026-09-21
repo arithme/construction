@@ -1,0 +1,5 @@
+import type {Metadata} from 'next';import type {CompanyConfig,SeoFields} from './types';
+export const origin=process.env.NEXT_PUBLIC_SITE_URL||'http://localhost:5173';
+export function pageMetadata(seo:SeoFields,path:string,company:CompanyConfig):Metadata{const url=new URL(path,origin).href;const image=seo.ogImage?new URL(seo.ogImage.src,origin).href:undefined;return {title:seo.title,description:seo.description,alternates:{canonical:seo.canonical||url},openGraph:{type:'website',title:seo.title,description:seo.description,url,siteName:company.companyName,...(image?{images:[image]}:{})},twitter:{card:image?'summary_large_image':'summary',title:seo.title,description:seo.description,...(image?{images:[image]}:{})},robots:{index:!company.isSample,follow:!company.isSample}}}
+export function Schema({value}:{value:Record<string,unknown>}){return <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org',...value}).replace(/</g,'\\u003c')}}/>}
+

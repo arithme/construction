@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';import {content} from '@/lib/content-provider';import {origin} from '@/lib/seo';export default async function robots():Promise<MetadataRoute.Robots>{const c=await content.getCompany();return {rules:{userAgent:'*',...(c.isSample?{disallow:'/'}:{allow:'/',disallow:['/api/','/thank-you']})},sitemap:new URL('/sitemap.xml',origin).href}}

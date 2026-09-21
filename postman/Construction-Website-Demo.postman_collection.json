@@ -1,0 +1,24 @@
+{
+  "info": { "name": "Construction Website Demo Forms", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "variable": [{ "key": "baseUrl", "value": "http://localhost:5173" }],
+  "item": [
+    { "name": "Create CSRF form session", "request": { "method": "GET", "url": "{{baseUrl}}/api/leads" } },
+    {
+      "name": "Submit mock contact form",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "X-CSRF-Token", "value": "Copy token from the session response" }],
+        "body": { "mode": "formdata", "formdata": [
+          { "key": "formType", "value": "contact", "type": "text" },
+          { "key": "name", "value": "Demo Visitor", "type": "text" },
+          { "key": "phone", "value": "9876543210", "type": "text" },
+          { "key": "email", "value": "demo@example.test", "type": "text" },
+          { "key": "consent", "value": "yes", "type": "text" },
+          { "key": "website", "value": "", "type": "text" }
+        ] },
+        "url": "{{baseUrl}}/api/leads",
+        "description": "Retain the lead-csrf cookie from the first request and copy its token into X-CSRF-Token. The mock endpoint validates and discards data."
+      }
+    }
+  ]
+}

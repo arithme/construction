@@ -1,0 +1,1 @@
+'use client';export default function ErrorPage({reset}:{reset:()=>void}){return <section className="section wrap"><p className="eyebrow">SOMETHING WENT WRONG</p><h1>We couldn’t load this page.</h1><p>Please try again. Your form has not been submitted unless you saw a confirmation.</p><button className="button" onClick={reset}>Try again</button></section>}

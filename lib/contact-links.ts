@@ -1,0 +1,2 @@
+import type {CompanyConfig} from './types';
+export function contactLinks(c:Pick<CompanyConfig,'phone'|'whatsapp'>){const phone=c.phone.replace(/[^+0-9]/g,'');const whatsapp=c.whatsapp.replace(/\D/g,'');return {phone:phone?'tel:'+phone:'/contact',whatsapp:whatsapp?'https://wa.me/'+whatsapp+'?text='+encodeURIComponent('Hello, I am interested in your construction services. I would like to discuss my project.'):'/contact'}}
