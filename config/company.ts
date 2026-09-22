@@ -1,12 +1,12 @@
-import type {CompanyConfig} from '@/lib/types';
+import type {CompanyConfig} from '../lib/types.ts';import quick from '../client.config.ts';import advanced from '../client.advanced.config.ts';import {features} from './features.ts';
 export const company:CompanyConfig = {
- companyName:'Aranya Buildcon',shortName:'ARANYA',descriptor:'BUILDCON',tagline:'Building Better Spaces. Building Better Futures.',
- phone:'',whatsapp:'',email:'',address:{city:'Bokaro',state:'Jharkhand',country:'IN',street:'',postalCode:''},
- primaryColor:'#c5944b',secondaryColor:'#192322',logo:'/favicon.svg',isSample:true,locale:'en',
+ companyName:quick.companyName,shortName:quick.companyName.split(/\s+/)[0].toUpperCase(),descriptor:quick.companyName.split(/\s+/).slice(1).join(' ').toUpperCase(),tagline:advanced.tagline,
+ phone:quick.phone,whatsapp:advanced.whatsapp,email:advanced.email,address:advanced.address,
+ primaryColor:quick.colors.primary,secondaryColor:quick.colors.secondary,logo:quick.logo,isSample:advanced.demoMode,locale:'en',
  hero:{title:'Building spaces.\nShaping tomorrow.',subtitle:'Thoughtfully planned homes, workplaces and civil construction. From the first conversation to the final handover.',image:'/images/courtyard.webp'},
- serviceAreas:['Bokaro','Chas','Bokaro Steel City'],googleMapsUrl:'https://www.google.com/maps?q=Bokaro%2C+Jharkhand',googleBusinessUrl:'',
+ serviceAreas:[...advanced.serviceAreas],googleMapsUrl:'https://www.google.com/maps?q=Bokaro%2C+Jharkhand',googleBusinessUrl:'',
  mapsEmbedUrl:'https://www.google.com/maps?q=Bokaro%2C+Jharkhand&output=embed',
- businessHours:[{days:'Monday – Saturday',opens:'09:00',closes:'18:00'}],stats:[],credentials:[],socialLinks:{},
- seo:{title:'Construction with clarity',description:'Explore residential, commercial and civil construction services in Bokaro, Jharkhand. A fictional white-label website demonstration.'},
- features:{calculators:true,careers:true,blog:true,siteVisit:true,popups:false,darkMode:false},theme:'premium-corporate'
+ businessHours:[...advanced.businessHours],stats:[],credentials:[],socialLinks:advanced.socialLinks,
+ seo:{title:'Construction with clarity',description:`Explore construction services from ${quick.companyName} in Bokaro, Jharkhand.`},
+ features:{calculators:features.costCalculator,careers:features.careers,blog:features.blog,siteVisit:features.siteVisit,popups:features.popupLeadForm,darkMode:false},theme:advanced.designPreset
 };

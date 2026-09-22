@@ -15,6 +15,7 @@
     "typecheck": "tsc --noEmit",
     "build:next": "next build",
     "start:next": "next start",
+    "create-client": "node scripts/new-client.mjs",
     "new-client": "node scripts/new-client.mjs",
     "test": "node --test tests/*.test.mjs"
   },
@@ -70,5 +71,5 @@
       "sharp": "0.35.4"
     }
   },
-  "packageManager": "pnpm@11.19.0"
+  "packageManager": "npm@11.6.2"
 }
