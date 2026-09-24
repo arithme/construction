@@ -28,7 +28,16 @@ const eslintConfig = defineConfig([
     rules: {
       "@next/next/no-html-link-for-pages": "off",
       "@next/next/no-img-element": "off",
+      "@next/next/no-location-assign-relative-destination": "off",
     },
+  },
+  {
+    files: ["components/admin-*.tsx"],
+    rules: { "@next/next/no-html-link-for-pages": "off" },
+  },
+  {
+    files: ["components/content.tsx", "components/gallery.tsx", "components/home-view.tsx", "components/site-shell.tsx", "components/tenant-site.tsx"],
+    rules: { "@next/next/no-img-element": "off" },
   },
 ]);
 

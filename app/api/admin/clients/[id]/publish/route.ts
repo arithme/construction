@@ -1,0 +1,2 @@
+import {publishClient} from '@/lib/client-repository';import {requireUser} from '@/lib/admin-session';
+export async function POST(request:Request,{params}:{params:Promise<{id:string}>}){const{id}=await params,user=await requireUser(request);if(!user||user.role==='CLIENT')return Response.json({error:'Forbidden'},{status:403});try{return Response.json({published:true,snapshot:await publishClient(id,user.id)})}catch(e){return Response.json({error:e instanceof Error?e.message:'Publish failed.'},{status:422})}}

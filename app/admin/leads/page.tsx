@@ -1,0 +1,1 @@
+import {AdminLeads} from '@/components/admin-leads';export const metadata={title:'Leads',robots:{index:false,follow:false}};export default function LeadsPage(){return <section className="admin-shell"><AdminLeads/></section>}

@@ -1,0 +1,3 @@
+import {listClients,saveClient} from '@/lib/client-repository';import {clientInput} from '@/lib/client-schema';import {requireUser} from '@/lib/admin-session';
+export async function GET(request:Request){const user=await requireUser(request);if(!user)return Response.json({error:'Unauthorized'},{status:401});return Response.json({clients:await listClients()})}
+export async function POST(request:Request){const user=await requireUser(request);if(!user||user.role==='CLIENT')return Response.json({error:'Forbidden'},{status:403});try{const parsed=clientInput.parse(await request.json());const id=await saveClient(parsed,user.id);return Response.json({id},{status:201})}catch(e){return Response.json({error:e instanceof Error?e.message:'Invalid client.'},{status:422})}}

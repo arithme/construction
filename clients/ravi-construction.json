@@ -1,4 +1,4 @@
-export default {
+{
   "companyName": "Ravi Construction",
   "logo": "/favicon.svg",
   "phone": "+91-9771423850",
@@ -17,4 +17,4 @@ export default {
     "secondary": "#192322",
     "accent": "#ffffff"
   }
-} as const;
+}

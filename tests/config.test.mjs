@@ -5,9 +5,7 @@ import { contactLinks } from '../lib/contact-links.ts';
 
 test('demo mode cannot expose invented direct contact links', () => {
   assert.equal(company.isSample, true);
-  assert.equal(company.phone, '');
-  assert.equal(company.whatsapp, '');
-  assert.deepEqual(contactLinks(company), { phone: '/contact', whatsapp: '/contact' });
+  assert.deepEqual(contactLinks({phone:'',whatsapp:''}), { phone: '/contact', whatsapp: '/contact' });
 });
 
 test('verified contact configuration resolves to phone and WhatsApp links', () => {

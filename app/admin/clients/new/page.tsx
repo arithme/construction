@@ -1,0 +1,1 @@
+import {AdminClientBuilder} from '@/components/admin-client-builder';export const metadata={title:'Create client',robots:{index:false,follow:false}};export default function NewClient(){return <section className="admin-shell"><AdminClientBuilder/></section>}

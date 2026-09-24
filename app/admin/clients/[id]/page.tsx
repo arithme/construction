@@ -1,0 +1,1 @@
+import {AdminClientBuilder} from '@/components/admin-client-builder';export const metadata={title:'Edit client',robots:{index:false,follow:false}};export default async function EditClient({params}:{params:Promise<{id:string}>}){return <section className="admin-shell"><AdminClientBuilder clientId={(await params).id}/></section>}

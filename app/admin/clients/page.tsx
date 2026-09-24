@@ -1,0 +1,1 @@
+import {AdminClients} from '@/components/admin-clients';export const metadata={title:'Clients',robots:{index:false,follow:false}};export default function ClientsPage(){return <section className="admin-shell"><AdminClients/></section>}

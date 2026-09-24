@@ -1,0 +1,1 @@
+import {AdminDashboard} from '@/components/admin-dashboard';export const metadata={title:'Agency dashboard',robots:{index:false,follow:false}};export default function AdminPage(){return <section className="admin-shell"><AdminDashboard/></section>}

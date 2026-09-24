@@ -1,0 +1,8 @@
+'use client';
+import {FormEvent,useEffect,useState} from 'react';
+export function TenantLeadForm(){
+ const [status,setStatus]=useState(''),[token,setToken]=useState('');
+ useEffect(()=>{fetch('/api/leads').then(r=>r.json() as Promise<{token:string}>).then(r=>setToken(r.token)).catch(()=>setStatus('The enquiry form is temporarily unavailable.'))},[]);
+ async function submit(event:FormEvent<HTMLFormElement>){event.preventDefault();setStatus('Sending…');const form=event.currentTarget,response=await fetch('/api/leads',{method:'POST',headers:{'x-csrf-token':token},body:new FormData(form)});const result=await response.json() as {error?:string};if(response.ok){form.reset();setStatus('Thank you. We will contact you shortly.')}else setStatus(result.error||'Could not send your enquiry.')}
+ return <form className="tenant-lead-form" onSubmit={submit}><input type="hidden" name="formType" value="quote"/><input type="hidden" name="consent" value="yes"/><input className="honeypot" name="website" tabIndex={-1} autoComplete="off"/><div className="form-grid"><label className="field">Name *<input name="name" required/></label><label className="field">Phone *<input name="phone" type="tel" required/></label><label className="field">Email<input name="email" type="email"/></label><label className="field">Project location *<input name="location" required/></label></div><label className="field">Project details<textarea name="message" rows={4} placeholder="Tell us what you want to build, approximate size and preferred timeline."/></label><button className="button" type="submit" disabled={!token}>Request a quote</button>{status&&<p role="status">{status}</p>}</form>
+}
