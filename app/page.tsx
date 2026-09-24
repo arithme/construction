@@ -1,1 +1,7 @@
-import {content} from '@/lib/content-provider';import {HomeView} from '@/components/home-view';import {pageMetadata} from '@/lib/seo';export async function generateMetadata(){const brand=await content.getCompany();return pageMetadata(brand.seo,'/',brand)}export default async function Home(){const[brand,services,projects,posts,faqs,testimonials]=await Promise.all([content.getCompany(),content.getServices(),content.getProjects(),content.getBlogPosts(),content.getFAQs(),content.getTestimonials()]);return <HomeView data={{brand,services,projects,posts,faqs,testimonials}}/>}
+import {redirect} from 'next/navigation';
+
+export const metadata={title:'Agency platform',robots:{index:false,follow:false}};
+
+export default function Home(){
+ redirect('/admin');
+}
