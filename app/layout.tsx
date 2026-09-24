@@ -1,3 +1,12 @@
-import type {Metadata} from 'next';import './globals.css';import {content} from '@/lib/content-provider';import {Header,Footer} from '@/components/site-shell';import {ContactControls} from '@/components/conversion-controls';import {Schema,origin} from '@/lib/seo';
-export async function generateMetadata():Promise<Metadata>{const c=await content.getCompany();return {metadataBase:new URL(origin),title:{default:c.companyName+' | '+c.seo.title,template:'%s | '+c.companyName},description:c.seo.description,icons:{icon:c.logo},robots:{index:!c.isSample,follow:!c.isSample}}}
-export default async function RootLayout({children}:{children:React.ReactNode}){const company=await content.getCompany();return <html lang={company.locale}><body style={{'--accent':company.primaryColor,'--ink':company.secondaryColor} as React.CSSProperties}><a href="#main" className="skip-link">Skip to content</a><Header brand={company}/><main id="main">{children}</main><Footer brand={company}/><ContactControls brand={company}/>{!company.isSample&&<Schema value={{'@type':'GeneralContractor',name:company.companyName,url:origin,telephone:company.phone,address:{'@type':'PostalAddress',streetAddress:company.address.street,addressLocality:company.address.city,addressRegion:company.address.state,postalCode:company.address.postalCode,addressCountry:company.address.country},areaServed:company.serviceAreas}}/>}</body></html>}
+import type {Metadata} from 'next';
+import './globals.css';
+
+export const metadata:Metadata={
+ title:{default:'Ravi Website Studio',template:'%s | Ravi Website Studio'},
+ description:'Construction website management platform.',
+ robots:{index:false,follow:false},
+};
+
+export default function RootLayout({children}:{children:React.ReactNode}){
+ return <html lang="en"><body><a href="#main" className="skip-link">Skip to content</a><main id="main">{children}</main></body></html>
+}
